@@ -1,0 +1,18 @@
+name = "Tensor4All"
+uuid = "f6b74d3f-d77c-4671-b834-faab662eeff9"
+authors = ["tensor4all"]
+version = "0.1.0"
+
+[deps]
+TensorCrossInterpolation = "b261b2ec-6378-4871-b32e-9173bb050604"
+
+[compat]
+TensorCrossInterpolation = "0.9.17"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+ReTestItems = "817f1d60-ba6b-4fd5-9520-3cf149f6a823"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test", "ReTestItems"]
